@@ -1,0 +1,162 @@
+{
+  "Title": "sample-quiz-import",
+  "Questions": [
+    {
+      "Sequence": 1,
+      "Text": "The symbol &#8220;Gl&#8221; represents the reference electrode:",
+      "Code": "The symbol Gl repr",
+      "FeedbackText": "",
+      "Options": [
+        {
+          "Text": "True",
+          "Points": 0
+        },
+        {
+          "Text": "False",
+          "Points": 1
+        }
+      ],
+      "Triggers": []
+    },
+    {
+      "Sequence": 2,
+      "Text": "Amplitude is a measure of:",
+      "Code": "Amplitude Ch. 4.1KH2",
+      "FeedbackText": "",
+      "Options": [
+        {
+          "Text": "Resistance",
+          "Points": 0
+        },
+        {
+          "Text": "Current",
+          "Points": 0
+        },
+        {
+          "Text": "Impedance",
+          "Points": 0
+        },
+        {
+          "Text": "Voltage",
+          "Points": 1
+        }
+      ],
+      "Triggers": []
+    },
+    {
+      "Sequence": 3,
+      "Text": "Who determined the exact speed of light?",
+      "Code": "Who determined the e",
+      "FeedbackText": "",
+      "Options": [
+        {
+          "Text": "Albert Einstein",
+          "Points": 0
+        },
+        {
+          "Text": "Albert Michelson",
+          "Points": 1
+        },
+        {
+          "Text": "Thomas Edison",
+          "Points": 0
+        },
+        {
+          "Text": "Guglielmo Marconi",
+          "Points": 0
+        }
+      ],
+      "Triggers": []
+    },
+    {
+      "Sequence": 4,
+      "Text": "How is the Michelson-Morely experiment related to Albert Einstein&#8217;s theory of relativity?",
+      "Code": "How is the Michelson",
+      "FeedbackText": "",
+      "Options": [],
+      "Triggers": []
+    },
+    {
+      "Sequence": 5,
+      "Text": "Who is known as the &#8220;father of television&#8221;?  \r\n![image](image0015bec8f50.gif)[KH7]",
+      "Code": "Who is known as the",
+      "FeedbackText": "",
+      "Options": [],
+      "Triggers": []
+    },
+    {
+      "Sequence": 6,
+      "Text": "A",
+      "Code": "A [rose, flower] by",
+      "FeedbackText": "",
+      "Options": [],
+      "Triggers": []
+    },
+    {
+      "Sequence": 7,
+      "Text": "4. Match the correct name to the discovery or theory.",
+      "Code": "4. Match the correct",
+      "FeedbackText": "",
+      "Options": [],
+      "Triggers": []
+    },
+    {
+      "Sequence": 8,
+      "Text": "Put the following stages of project management in order?",
+      "Code": "Project Management P",
+      "FeedbackText": "See the PMBOK for details.[KH11]",
+      "Options": [],
+      "Triggers": []
+    },
+    {
+      "Sequence": 9,
+      "Text": "Which of the following individuals are credited with determining the exact speed of light?",
+      "Code": "Research credit",
+      "FeedbackText": "",
+      "Options": [
+        {
+          "Text": "Albert Einstein",
+          "Points": 0
+        },
+        {
+          "Text": "Albert Michelson",
+          "Points": 0
+        },
+        {
+          "Text": "Edward Williams Morley",
+          "Points": 0
+        },
+        {
+          "Text": "Thomas Edison",
+          "Points": 0
+        }
+      ],
+      "Triggers": []
+    },
+    {
+      "Sequence": 10,
+      "Text": "The interferometer, shown here, ![](sample-quiz-import/image0025bec8f50.jpg) was used by which of the following scientists?[KH13]",
+      "Code": "The interferometer,",
+      "FeedbackText": "",
+      "Options": [
+        {
+          "Text": "Albert Einstein",
+          "Points": 0
+        },
+        {
+          "Text": "Albert Michelson",
+          "Points": 1
+        },
+        {
+          "Text": "Thomas Edison",
+          "Points": 0
+        },
+        {
+          "Text": "Vladimir Zworykin",
+          "Points": 0
+        }
+      ],
+      "Triggers": []
+    }
+  ]
+}

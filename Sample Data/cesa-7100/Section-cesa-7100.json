@@ -1,0 +1,255 @@
+{
+  "Title": "Section-cesa-7100",
+  "Questions": [
+    {
+      "Sequence": 1,
+      "Text": "Where would you look to find energy-efficiency requirements for a new single-family home in Victoria, BC?",
+      "Code": "Where would you look",
+      "FeedbackText": "",
+      "Options": [
+        {
+          "Text": "ASHRAE 90.1",
+          "Points": 0
+        },
+        {
+          "Text": "NECB",
+          "Points": 0
+        },
+        {
+          "Text": "BCBC Section 9.36",
+          "Points": 1
+        },
+        {
+          "Text": "BCBC Section 10",
+          "Points": 0
+        }
+      ],
+      "Triggers": []
+    },
+    {
+      "Sequence": 2,
+      "Text": "Where would you look to find energy-efficiency requirements for a new high-rise office building that must undergo rezoning in the City of Vancouver?",
+      "Code": "Where would you look 2",
+      "FeedbackText": "",
+      "Options": [
+        {
+          "Text": "VBBL Section 10",
+          "Points": 0
+        },
+        {
+          "Text": "City of Vancouver Green Buildings Policy",
+          "Points": 1
+        },
+        {
+          "Text": "ASHRAE 90.1",
+          "Points": 0
+        },
+        {
+          "Text": "NECB",
+          "Points": 0
+        }
+      ],
+      "Triggers": []
+    },
+    {
+      "Sequence": 3,
+      "Text": "The ASHRAE 90.1 and NECB Performance Paths use whole building energy modelling to compare a reference and proposed building's annual energy consumption.",
+      "Code": "The ASHRAE 90.1 and",
+      "FeedbackText": "",
+      "Options": [
+        {
+          "Text": "True",
+          "Points": 0
+        },
+        {
+          "Text": "False",
+          "Points": 1
+        }
+      ],
+      "Triggers": []
+    },
+    {
+      "Sequence": 4,
+      "Text": "Which of the following is not covered in ASHRAE 90.1 and NECB?",
+      "Code": "Which of the followi",
+      "FeedbackText": "",
+      "Options": [
+        {
+          "Text": "Building enclosure",
+          "Points": 0
+        },
+        {
+          "Text": "Heating, ventilating, and air conditioning",
+          "Points": 0
+        },
+        {
+          "Text": "Service water heating",
+          "Points": 0
+        },
+        {
+          "Text": "Lighting",
+          "Points": 0
+        },
+        {
+          "Text": "Industrial equipment",
+          "Points": 1
+        }
+      ],
+      "Triggers": []
+    },
+    {
+      "Sequence": 5,
+      "Text": "Which of the following is not a compliance path for the 2012 BCBC and 2014 VBBL?",
+      "Code": "Which of the followi 2",
+      "FeedbackText": "",
+      "Options": [
+        {
+          "Text": "ASHRAE 90.1 Energy Cost Budget Method",
+          "Points": 0
+        },
+        {
+          "Text": "ASHRAE 90.1 Performance Rating Method",
+          "Points": 1
+        },
+        {
+          "Text": "NECB Performance Path",
+          "Points": 0
+        },
+        {
+          "Text": "NECB Prescriptive Path",
+          "Points": 0
+        },
+        {
+          "Text": "None of the above. All are acceptable compliance paths.",
+          "Points": 0
+        }
+      ],
+      "Triggers": []
+    },
+    {
+      "Sequence": 6,
+      "Text": "How many ASHRAE climate zones are present in British Columbia?",
+      "Code": "How many ASHRAE clim",
+      "FeedbackText": "",
+      "Options": [
+        {
+          "Text": "8",
+          "Points": 0
+        },
+        {
+          "Text": "6",
+          "Points": 0
+        },
+        {
+          "Text": "5",
+          "Points": 1
+        },
+        {
+          "Text": "4",
+          "Points": 0
+        }
+      ],
+      "Triggers": []
+    },
+    {
+      "Sequence": 7,
+      "Text": "The BC Energy Step Code was developed to:",
+      "Code": "The BC Energy Step C",
+      "FeedbackText": "",
+      "Options": [
+        {
+          "Text": "Set minimum requirements for energy efficiency in BC",
+          "Points": 0
+        },
+        {
+          "Text": "Make it easier for buildings to comply with energy requirements in BC",
+          "Points": 0
+        },
+        {
+          "Text": "Encourage higher performance buildings in BC",
+          "Points": 1
+        },
+        {
+          "Text": "All of the above",
+          "Points": 0
+        }
+      ],
+      "Triggers": []
+    },
+    {
+      "Sequence": 8,
+      "Text": "Which of the following is incorrect?",
+      "Code": "Which of the followi 3",
+      "FeedbackText": "",
+      "Options": [
+        {
+          "Text": "Energy modelling must be used to comply with the BCBC and VBBL.",
+          "Points": 1
+        },
+        {
+          "Text": "Energy modelling must be used to comply with the BC Step Code.",
+          "Points": 0
+        },
+        {
+          "Text": "Energy modelling must be used for Vancouver rezonings.",
+          "Points": 0
+        },
+        {
+          "Text": "All buildings in BC need an energy model.",
+          "Points": 0
+        }
+      ],
+      "Triggers": []
+    },
+    {
+      "Sequence": 9,
+      "Text": "You're modelling a building that will comply with the BCBC through ASHRAE 90.1 and the Energy Cost Budget Method. Where do you find guidelines for setting up the energy model?",
+      "Code": "You're modelling a b",
+      "FeedbackText": "",
+      "Options": [
+        {
+          "Text": "ASHRAE 90.1, Section 11",
+          "Points": 1
+        },
+        {
+          "Text": "City of Vancouver Energy Modelling Guidelines",
+          "Points": 0
+        },
+        {
+          "Text": "NECB, Section 8",
+          "Points": 0
+        },
+        {
+          "Text": "ASHRAE 90.1, Appendix G",
+          "Points": 0
+        }
+      ],
+      "Triggers": []
+    },
+    {
+      "Sequence": 10,
+      "Text": "You're modelling a building that will comply with the City of Vancouver Rezoning requirements. Where do you find guidelines for setting up the energy model?",
+      "Code": "You're modelling a b 2",
+      "FeedbackText": "",
+      "Options": [
+        {
+          "Text": "ASHRAE 90.1, Section 11",
+          "Points": 0
+        },
+        {
+          "Text": "City of Vancouver Energy Modelling Guidelines",
+          "Points": 1
+        },
+        {
+          "Text": "NECB, Section 8",
+          "Points": 0
+        },
+        {
+          "Text": "ASHRAE 90.1, Appendix G",
+          "Points": 0
+        }
+      ],
+      "Triggers": []
+    }
+  ]
+}

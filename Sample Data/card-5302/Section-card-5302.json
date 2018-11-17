@@ -1,0 +1,126 @@
+{
+  "Title": "Section-card-5302",
+  "Questions": [
+    {
+      "Sequence": 1,
+      "Text": "Leads will only dislodge if a patient performs an inappropriate upper body movement too soon post-op.",
+      "Code": "Leads will only disl",
+      "FeedbackText": "",
+      "Options": [
+        {
+          "Text": "True",
+          "Points": 0
+        },
+        {
+          "Text": "False",
+          "Points": 1
+        }
+      ],
+      "Triggers": []
+    },
+    {
+      "Sequence": 2,
+      "Text": "PVC's during pacemaker implant are always consequential.",
+      "Code": "PVCs during pacemak",
+      "FeedbackText": "PVCs or short runs of VT are rarely sustained during implantation of the RV lead.",
+      "Options": [
+        {
+          "Text": "True",
+          "Points": 0
+        },
+        {
+          "Text": "False",
+          "Points": 1
+        }
+      ],
+      "Triggers": []
+    },
+    {
+      "Sequence": 3,
+      "Text": "Pneumothorax is caused by which of the following?",
+      "Code": "Pneumothorax is caus",
+      "FeedbackText": "",
+      "Options": [
+        {
+          "Text": "pneumonia",
+          "Points": 0
+        },
+        {
+          "Text": "lead extraction",
+          "Points": 0
+        },
+        {
+          "Text": "cephalic cut-down",
+          "Points": 0
+        },
+        {
+          "Text": "subclavian puncture",
+          "Points": 1
+        }
+      ],
+      "Triggers": []
+    },
+    {
+      "Sequence": 4,
+      "Text": "An infected pulse generator pocket will require which of the following?",
+      "Code": "An infected pulse ge",
+      "FeedbackText": "",
+      "Options": [
+        {
+          "Text": "antibiotic therapy",
+          "Points": 0
+        },
+        {
+          "Text": "removal of the CRMD system",
+          "Points": 0
+        },
+        {
+          "Text": "monitor for signs or improvement or worsening",
+          "Points": 0
+        },
+        {
+          "Text": "both a and b",
+          "Points": 1
+        },
+        {
+          "Text": "none of the above",
+          "Points": 0
+        }
+      ],
+      "Triggers": []
+    },
+    {
+      "Sequence": 5,
+      "Text": "Name and describe the 3 classifications of device and lead advisories.",
+      "Code": "Name and describe th",
+      "FeedbackText": "",
+      "Options": [],
+      "Triggers": []
+    },
+    {
+      "Sequence": 6,
+      "Text": "Which of the following is at greatest risk trauma during a lead extraction case?",
+      "Code": "Which of the followi",
+      "FeedbackText": "",
+      "Options": [
+        {
+          "Text": "SVC",
+          "Points": 0
+        },
+        {
+          "Text": "tricuspid valve",
+          "Points": 0
+        },
+        {
+          "Text": "RV apex",
+          "Points": 0
+        },
+        {
+          "Text": "all of the above",
+          "Points": 1
+        }
+      ],
+      "Triggers": []
+    }
+  ]
+}

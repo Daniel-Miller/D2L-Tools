@@ -1,0 +1,1264 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<questestinterop xmlns:d2l_2p0="http://desire2learn.com/xsd/d2lcp_v2p0">
+
+  <assessment d2l_2p0:id="1001" title="sample-quiz-import" ident="res_quiz_1">
+    <rubic>
+      <flow_mat>
+        <material>
+          <mattext d2l_2p0:isdisplayed="no" texttype="text/plain" />
+        </material>
+      </flow_mat>
+    </rubic>
+    <assessmentcontrol hintswitch="no" solutionswitch="no" feedbackswitch="no" />
+    <presentation_material>
+      <flow_mat>
+        <material label="page header">
+          <mattext d2l_2p0:isdisplayed="no" texttype="text/plain" />
+        </material>
+        <material label="page footer">
+          <mattext d2l_2p0:isdisplayed="no" texttype="text/plain" />
+        </material>
+      </flow_mat>
+    </presentation_material>
+    <assess_procextension>
+      <d2l_2p0:intro_message d2l_2p0:isdisplayed="no" texttype="text/plain" />
+      <d2l_2p0:disable_right_click>no</d2l_2p0:disable_right_click>
+      <d2l_2p0:disable_pager_access>no</d2l_2p0:disable_pager_access>
+      <is_active>yes</is_active>
+      <d2l_2p0:date_start />
+      <d2l_2p0:date_end />
+      <d2l_2p0:has_schedule_event>no</d2l_2p0:has_schedule_event>
+      <d2l_2p0:is_attempt_Rldb>no</d2l_2p0:is_attempt_Rldb>
+      <d2l_2p0:is_subview_Rldb>no</d2l_2p0:is_subview_Rldb>
+      <d2l_2p0:time_limit>120</d2l_2p0:time_limit>
+      <d2l_2p0:show_clock>no</d2l_2p0:show_clock>
+      <d2l_2p0:enforce_time_limit>no</d2l_2p0:enforce_time_limit>
+      <d2l_2p0:grace_period>5</d2l_2p0:grace_period>
+      <d2l_2p0:late_limit>0</d2l_2p0:late_limit>
+      <d2l_2p0:attempts_allowed>0</d2l_2p0:attempts_allowed>
+      <d2l_2p0:attempt_restrictions />
+      <d2l_2p0:mark_calculation_type>1</d2l_2p0:mark_calculation_type>
+      <d2l_2p0:is_forward_only>no</d2l_2p0:is_forward_only>
+    </assess_procextension>
+    <assessfeedback>
+      <rubic>
+        <flow_mat>
+          <material>
+            <mattext d2l_2p0:isdisplayed="yes" texttype="text/plain">Your quiz has been submitted successfully.</mattext>
+          </material>
+        </flow_mat>
+      </rubic>
+      <d2l_2p0:response_display_type_id>1</d2l_2p0:response_display_type_id>
+      <d2l_2p0:show_correct_answers>no</d2l_2p0:show_correct_answers>
+      <d2l_2p0:show_class_average>no</d2l_2p0:show_class_average>
+      <d2l_2p0:show_score_distribution>no</d2l_2p0:show_score_distribution>
+    </assessfeedback>
+    <section ident="CONTAINER_SECTION">
+      <item ident="OBJ_1003" label="QUES_1002" d2l_2p0:page="1" title="The symbol Gl repr" >
+        <itemmetadata>
+          <qtimetadata>
+            <qti_metadatafield>
+              <fieldlabel>qmd_computerscored</fieldlabel>
+              <fieldentry>yes</fieldentry>
+            </qti_metadatafield>
+            <qti_metadatafield>
+              <fieldlabel>qmd_questiontype</fieldlabel>
+              <fieldentry>True/False</fieldentry>
+            </qti_metadatafield>
+            <qti_metadatafield>
+              <fieldlabel>qmd_weighting</fieldlabel>
+              <fieldentry>1.0000</fieldentry>
+            </qti_metadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <itemproc_extension>
+          <d2l_2p0:difficulty>1</d2l_2p0:difficulty>
+          <d2l_2p0:isbonus>no</d2l_2p0:isbonus>
+          <d2l_2p0:ismandatory>no</d2l_2p0:ismandatory>
+        </itemproc_extension>
+        <presentation>
+          <flow>
+            <material>
+              <mattext texttype="text/html"><![CDATA[The symbol &#8220;Gl&#8221; represents the reference electrode:]]></mattext>
+            </material>
+            <response_extension>
+              <d2l_2p0:display_style>2</d2l_2p0:display_style>
+              <d2l_2p0:enumeration>1</d2l_2p0:enumeration>
+              <d2l_2p0:grading_type>0</d2l_2p0:grading_type>
+            </response_extension>
+            <response_lid ident="QUES_1002_LID" rcardinality="Single">
+              <render_choice shuffle="no">
+                <flow_label class="Block">
+                  <response_label ident="QUES_1002_A100400">
+                    <flow_mat>
+                      <material>
+                        <mattext texttype="text/plain">True</mattext>
+                      </material>
+                    </flow_mat>
+                  </response_label>
+                </flow_label>
+                <flow_label class="Block">
+                  <response_label ident="QUES_1002_A100401">
+                    <flow_mat>
+                      <material>
+                        <mattext texttype="text/plain">False</mattext>
+                      </material>
+                    </flow_mat>
+                  </response_label>
+                </flow_label>
+              </render_choice>
+            </response_lid>
+          </flow>
+        </presentation>
+        <hint>
+          <hintmaterial>
+            <flow_mat>
+              <mattext texttype="text/plain" />
+            </flow_mat>
+          </hintmaterial>
+        </hint>
+        <resprocessing>
+          <respcondition title="Response Condition 1">
+            <conditionvar>
+              <varequal respident="QUES_1002_LID">QUES_1002_A100400</varequal>
+            </conditionvar>
+            <setvar action="Set">0.0000</setvar>
+            <displayfeedback feedbacktype="Response" linkrefid="QUES_1002_IF100400" />
+          </respcondition>
+          <respcondition title="Response Condition 2">
+            <conditionvar>
+              <varequal respident="QUES_1002_LID">QUES_1002_A100401</varequal>
+            </conditionvar>
+            <setvar action="Set">100.0000</setvar>
+            <displayfeedback feedbacktype="Response" linkrefid="QUES_1002_IF100401" />
+          </respcondition>
+        </resprocessing>
+        <itemfeedback ident="QUES_1002">
+          <material>
+            <mattext texttype="text/plain" />
+          </material>
+        </itemfeedback>
+        <itemfeedback ident="QUES_1002_IF100400">
+          <material>
+            <mattext texttype="text/plain" />
+          </material>
+        </itemfeedback>
+        <itemfeedback ident="QUES_1002_IF100401">
+          <material>
+            <mattext texttype="text/plain" />
+          </material>
+        </itemfeedback>
+      </item>
+
+      <item ident="OBJ_1006" label="QUES_1005" d2l_2p0:page="1" title="Amplitude Ch. 4.1KH2" >
+        <itemmetadata>
+          <qtimetadata>
+            <qti_metadatafield>
+              <fieldlabel>qmd_computerscored</fieldlabel>
+              <fieldentry>yes</fieldentry>
+            </qti_metadatafield>
+            <qti_metadatafield>
+              <fieldlabel>qmd_questiontype</fieldlabel>
+              <fieldentry>Multiple Choice</fieldentry>
+            </qti_metadatafield>
+            <qti_metadatafield>
+              <fieldlabel>qmd_weighting</fieldlabel>
+              <fieldentry>1.0000</fieldentry>
+            </qti_metadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <itemproc_extension>
+          <d2l_2p0:difficulty>1</d2l_2p0:difficulty>
+          <d2l_2p0:isbonus>no</d2l_2p0:isbonus>
+          <d2l_2p0:ismandatory>no</d2l_2p0:ismandatory>
+        </itemproc_extension>
+        <presentation>
+          <flow>
+            <material>
+              <mattext texttype="text/html"><![CDATA[Amplitude is a measure of:]]></mattext>
+            </material>
+            <response_extension>
+              <d2l_2p0:display_style>2</d2l_2p0:display_style>
+              <d2l_2p0:enumeration>1</d2l_2p0:enumeration>
+              <d2l_2p0:grading_type>0</d2l_2p0:grading_type>
+            </response_extension>
+            <response_lid ident="QUES_1005_LID" rcardinality="Multiple">
+              <render_choice shuffle="no">
+                <flow_label class="Block">
+                  <response_label ident="QUES_1005_A100700">
+                    <flow_mat>
+                      <material>
+                        <mattext texttype="text/html"><![CDATA[Resistance]]></mattext>
+                      </material>
+                    </flow_mat>
+                  </response_label>
+                </flow_label>
+                <flow_label class="Block">
+                  <response_label ident="QUES_1005_A100701">
+                    <flow_mat>
+                      <material>
+                        <mattext texttype="text/html"><![CDATA[Current]]></mattext>
+                      </material>
+                    </flow_mat>
+                  </response_label>
+                </flow_label>
+                <flow_label class="Block">
+                  <response_label ident="QUES_1005_A100702">
+                    <flow_mat>
+                      <material>
+                        <mattext texttype="text/html"><![CDATA[Impedance]]></mattext>
+                      </material>
+                    </flow_mat>
+                  </response_label>
+                </flow_label>
+                <flow_label class="Block">
+                  <response_label ident="QUES_1005_A100703">
+                    <flow_mat>
+                      <material>
+                        <mattext texttype="text/html"><![CDATA[Voltage]]></mattext>
+                      </material>
+                    </flow_mat>
+                  </response_label>
+                </flow_label>
+              </render_choice>
+            </response_lid>
+          </flow>
+        </presentation>
+        <hint>
+          <hintmaterial>
+            <flow_mat>
+              <mattext texttype="text/plain" />
+            </flow_mat>
+          </hintmaterial>
+        </hint>
+        <resprocessing>
+          <respcondition title="Response Condition 1">
+            <conditionvar>
+              <varequal respident="QUES_1005_LID">QUES_1005_A100700</varequal>
+            </conditionvar>
+            <setvar action="Set">0.0000</setvar>
+            <displayfeedback feedbacktype="Response" linkrefid="QUES_1005_IF100700" />
+          </respcondition>
+          <respcondition title="Response Condition 2">
+            <conditionvar>
+              <varequal respident="QUES_1005_LID">QUES_1005_A100701</varequal>
+            </conditionvar>
+            <setvar action="Set">0.0000</setvar>
+            <displayfeedback feedbacktype="Response" linkrefid="QUES_1005_IF100701" />
+          </respcondition>
+          <respcondition title="Response Condition 3">
+            <conditionvar>
+              <varequal respident="QUES_1005_LID">QUES_1005_A100702</varequal>
+            </conditionvar>
+            <setvar action="Set">0.0000</setvar>
+            <displayfeedback feedbacktype="Response" linkrefid="QUES_1005_IF100702" />
+          </respcondition>
+          <respcondition title="Response Condition 4">
+            <conditionvar>
+              <varequal respident="QUES_1005_LID">QUES_1005_A100703</varequal>
+            </conditionvar>
+            <setvar action="Set">100.0000</setvar>
+            <displayfeedback feedbacktype="Response" linkrefid="QUES_1005_IF100703" />
+          </respcondition>
+        </resprocessing>
+        <itemfeedback ident="QUES_1005">
+          <material>
+            <mattext texttype="text/plain" />
+          </material>
+        </itemfeedback>
+        <itemfeedback ident="QUES_1005_IF100700">
+          <material>
+            <mattext texttype="text/plain" />
+          </material>
+        </itemfeedback>
+        <itemfeedback ident="QUES_1005_IF100701">
+          <material>
+            <mattext texttype="text/plain" />
+          </material>
+        </itemfeedback>
+        <itemfeedback ident="QUES_1005_IF100702">
+          <material>
+            <mattext texttype="text/plain" />
+          </material>
+        </itemfeedback>
+        <itemfeedback ident="QUES_1005_IF100703">
+          <material>
+            <mattext texttype="text/plain" />
+          </material>
+        </itemfeedback>
+      </item>
+
+      <item ident="OBJ_1009" label="QUES_1008" d2l_2p0:page="1" title="Who determined the e" >
+        <itemmetadata>
+          <qtimetadata>
+            <qti_metadatafield>
+              <fieldlabel>qmd_computerscored</fieldlabel>
+              <fieldentry>yes</fieldentry>
+            </qti_metadatafield>
+            <qti_metadatafield>
+              <fieldlabel>qmd_questiontype</fieldlabel>
+              <fieldentry>Multiple Choice</fieldentry>
+            </qti_metadatafield>
+            <qti_metadatafield>
+              <fieldlabel>qmd_weighting</fieldlabel>
+              <fieldentry>1.0000</fieldentry>
+            </qti_metadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <itemproc_extension>
+          <d2l_2p0:difficulty>1</d2l_2p0:difficulty>
+          <d2l_2p0:isbonus>no</d2l_2p0:isbonus>
+          <d2l_2p0:ismandatory>no</d2l_2p0:ismandatory>
+        </itemproc_extension>
+        <presentation>
+          <flow>
+            <material>
+              <mattext texttype="text/html"><![CDATA[Who determined the exact speed of light?]]></mattext>
+            </material>
+            <response_extension>
+              <d2l_2p0:display_style>2</d2l_2p0:display_style>
+              <d2l_2p0:enumeration>1</d2l_2p0:enumeration>
+              <d2l_2p0:grading_type>0</d2l_2p0:grading_type>
+            </response_extension>
+            <response_lid ident="QUES_1008_LID" rcardinality="Multiple">
+              <render_choice shuffle="no">
+                <flow_label class="Block">
+                  <response_label ident="QUES_1008_A101000">
+                    <flow_mat>
+                      <material>
+                        <mattext texttype="text/html"><![CDATA[Albert Einstein<a></a><a class=msocomanchor id="_anchor_3" onmouseover="msoCommentShow('_anchor_3','_com_3')" onmouseout="msoCommentHide('_com_3')" href="#_msocom_3" language=JavaScript name="_msoanchor_3"></a>]]></mattext>
+                      </material>
+                    </flow_mat>
+                  </response_label>
+                </flow_label>
+                <flow_label class="Block">
+                  <response_label ident="QUES_1008_A101001">
+                    <flow_mat>
+                      <material>
+                        <mattext texttype="text/html"><![CDATA[Albert Michelson]]></mattext>
+                      </material>
+                    </flow_mat>
+                  </response_label>
+                </flow_label>
+                <flow_label class="Block">
+                  <response_label ident="QUES_1008_A101002">
+                    <flow_mat>
+                      <material>
+                        <mattext texttype="text/html"><![CDATA[Thomas Edison]]></mattext>
+                      </material>
+                    </flow_mat>
+                  </response_label>
+                </flow_label>
+                <flow_label class="Block">
+                  <response_label ident="QUES_1008_A101003">
+                    <flow_mat>
+                      <material>
+                        <mattext texttype="text/html"><![CDATA[Guglielmo Marconi]]></mattext>
+                      </material>
+                    </flow_mat>
+                  </response_label>
+                </flow_label>
+              </render_choice>
+            </response_lid>
+          </flow>
+        </presentation>
+        <hint>
+          <hintmaterial>
+            <flow_mat>
+              <mattext texttype="text/plain" />
+            </flow_mat>
+          </hintmaterial>
+        </hint>
+        <resprocessing>
+          <respcondition title="Response Condition 1">
+            <conditionvar>
+              <varequal respident="QUES_1008_LID">QUES_1008_A101000</varequal>
+            </conditionvar>
+            <setvar action="Set">0.0000</setvar>
+            <displayfeedback feedbacktype="Response" linkrefid="QUES_1008_IF101000" />
+          </respcondition>
+          <respcondition title="Response Condition 2">
+            <conditionvar>
+              <varequal respident="QUES_1008_LID">QUES_1008_A101001</varequal>
+            </conditionvar>
+            <setvar action="Set">100.0000</setvar>
+            <displayfeedback feedbacktype="Response" linkrefid="QUES_1008_IF101001" />
+          </respcondition>
+          <respcondition title="Response Condition 3">
+            <conditionvar>
+              <varequal respident="QUES_1008_LID">QUES_1008_A101002</varequal>
+            </conditionvar>
+            <setvar action="Set">0.0000</setvar>
+            <displayfeedback feedbacktype="Response" linkrefid="QUES_1008_IF101002" />
+          </respcondition>
+          <respcondition title="Response Condition 4">
+            <conditionvar>
+              <varequal respident="QUES_1008_LID">QUES_1008_A101003</varequal>
+            </conditionvar>
+            <setvar action="Set">0.0000</setvar>
+            <displayfeedback feedbacktype="Response" linkrefid="QUES_1008_IF101003" />
+          </respcondition>
+        </resprocessing>
+        <itemfeedback ident="QUES_1008">
+          <material>
+            <mattext texttype="text/plain" />
+          </material>
+        </itemfeedback>
+        <itemfeedback ident="QUES_1008_IF101000">
+          <material>
+            <mattext texttype="text/html"><![CDATA[<a>No. Albert Michelson determined the exact speed of light.</a><a class=msocomanchor id="_anchor_3" onmouseover="msoCommentShow('_anchor_3','_com_3')" onmouseout="msoCommentHide('_com_3')" href="#_msocom_3" language=JavaScript name="_msoanchor_3">[KH3]</a>]]></mattext>
+          </material>
+        </itemfeedback>
+        <itemfeedback ident="QUES_1008_IF101001">
+          <material>
+            <mattext texttype="text/html"><![CDATA[Correct.]]></mattext>
+          </material>
+        </itemfeedback>
+        <itemfeedback ident="QUES_1008_IF101002">
+          <material>
+            <mattext texttype="text/html"><![CDATA[No. Thomas Edison did not determine the exact speed of light.]]></mattext>
+          </material>
+        </itemfeedback>
+        <itemfeedback ident="QUES_1008_IF101003">
+          <material>
+            <mattext texttype="text/html"><![CDATA[No. Marconi won a Nobel prize for his work with radio waves.]]></mattext>
+          </material>
+        </itemfeedback>
+      </item>
+
+      <item ident="OBJ_1012" label="QUES_1011" d2l_2p0:page="1" title="How is the Michelson" >
+        <itemmetadata>
+          <qtimetadata>
+            <qti_metadatafield>
+              <fieldlabel>qmd_computerscored</fieldlabel>
+              <fieldentry>yes</fieldentry>
+            </qti_metadatafield>
+            <qti_metadatafield>
+              <fieldlabel>qmd_questiontype</fieldlabel>
+              <fieldentry>Long Answer</fieldentry>
+            </qti_metadatafield>
+            <qti_metadatafield>
+              <fieldlabel>qmd_weighting</fieldlabel>
+              <fieldentry>5.0000</fieldentry>
+            </qti_metadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <itemproc_extension>
+          <d2l_2p0:difficulty>1</d2l_2p0:difficulty>
+          <d2l_2p0:isbonus>no</d2l_2p0:isbonus>
+          <d2l_2p0:ismandatory>no</d2l_2p0:ismandatory>
+        </itemproc_extension>
+        <presentation>
+          <flow>
+            <material>
+              <mattext texttype="text/html"><![CDATA[How is the Michelson-Morely experiment related to Albert Einstein&#8217;s theory of relativity?]]></mattext>
+            </material>
+            <response_extension>
+              <d2l_2p0:has_signed_comments>no</d2l_2p0:has_signed_comments>
+              <d2l_2p0:has_htmleditor>no</d2l_2p0:has_htmleditor>
+            </response_extension>
+            <response_str ident="QUES_1011_STR" rcardinality="Multiple">
+              <render_fib rows="5" columns="40" prompt="Box" fibtype="String">
+                <response_label ident="QUES_1011_LA">
+                  <material>
+                    <mattext texttype="text/plain" />
+                  </material>
+                </response_label>
+              </render_fib>
+            </response_str>
+          </flow>
+        </presentation>
+        <hint>
+          <hintmaterial>
+            <flow_mat>
+              <mattext texttype="text/plain" />
+            </flow_mat>
+          </hintmaterial>
+        </hint>
+        <itemfeedback ident="QUES_1011">
+          <material>
+            <mattext texttype="text/plain" />
+          </material>
+        </itemfeedback>
+        <initial_text>
+          <initial_text_material>
+            <flow_mat>
+              <material>
+                <mattext texttype="text/plain" />
+              </material>
+            </flow_mat>
+          </initial_text_material>
+        </initial_text>
+        <answer_key>
+          <answer_key_material>
+            <flow_mat>
+              <material>
+                <mattext texttype="text/html"><![CDATA[In 1887, Albert Michelson and Edward Morely carried out experiments to detect the change in speed of light due to ether wind when the Earth moved around the sun. The result was negative. They found the speed of light is always the &#8230;]]></mattext>
+              </material>
+            </flow_mat>
+          </answer_key_material>
+        </answer_key>
+      </item>
+
+      <item ident="OBJ_1014" label="QUES_1013" d2l_2p0:page="1" title="Who is known as the" >
+        <itemmetadata>
+          <qtimetadata>
+            <qti_metadatafield>
+              <fieldlabel>qmd_computerscored</fieldlabel>
+              <fieldentry>yes</fieldentry>
+            </qti_metadatafield>
+            <qti_metadatafield>
+              <fieldlabel>qmd_questiontype</fieldlabel>
+              <fieldentry>Short Answer</fieldentry>
+            </qti_metadatafield>
+            <qti_metadatafield>
+              <fieldlabel>qmd_weighting</fieldlabel>
+              <fieldentry>2.0000</fieldentry>
+            </qti_metadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <itemproc_extension>
+          <d2l_2p0:difficulty>1</d2l_2p0:difficulty>
+          <d2l_2p0:isbonus>no</d2l_2p0:isbonus>
+          <d2l_2p0:ismandatory>no</d2l_2p0:ismandatory>
+        </itemproc_extension>
+        <presentation>
+          <flow>
+            <material>
+              <mattext texttype="text/html"><![CDATA[Who is known as the &#8220;father of television&#8221;?<br><IMG src="sample-quiz-import/image0015bec8f50.gif" alt="" border=0 style="vertical-align:text-bottom;" /><a class=msocomanchor id="_anchor_7" onmouseover="msoCommentShow('_anchor_7','_com_7')" onmouseout="msoCommentHide('_com_7')" href="#_msocom_7" language=JavaScript name="_msoanchor_7">[KH7]</a>]]></mattext>
+            </material>
+            <response_str ident="QUES_1013_A101500_STR" rcardinality="Single">
+              <render_fib rows="1" columns="40" prompt="Box" fibtype="String">
+                <response_label ident="QUES_1013_A101500_ANS"/>
+              </render_fib>
+            </response_str>
+          </flow>
+        </presentation>
+        <hint>
+          <hintmaterial>
+            <flow_mat>
+              <mattext texttype="text/plain" />
+            </flow_mat>
+          </hintmaterial>
+        </hint>
+        <resprocessing>
+          <outcomes>
+            <decvar vartype="Integer" minvalue="0" maxvalue="100" varname="Blank_1" />
+          </outcomes>
+          <respcondition>
+            <conditionvar>
+              <varequal respident="QUES_1013_A101500_ANS" case="no">Vladimir Zworykin</varequal>
+            </conditionvar>
+            <setvar action="Set">100.0000</setvar>
+          </respcondition>
+        </resprocessing>
+        <itemfeedback ident="QUES_1013">
+          <material>
+            <mattext texttype="text/plain" />
+          </material>
+        </itemfeedback>
+      </item>
+
+      <item ident="OBJ_1017" label="QUES_1016" d2l_2p0:page="1" title="A [rose, flower] by" >
+        <itemmetadata>
+          <qtimetadata>
+            <qti_metadatafield>
+              <fieldlabel>qmd_computerscored</fieldlabel>
+              <fieldentry>yes</fieldentry>
+            </qti_metadatafield>
+            <qti_metadatafield>
+              <fieldlabel>qmd_questiontype</fieldlabel>
+              <fieldentry>Fill in the Blanks</fieldentry>
+            </qti_metadatafield>
+            <qti_metadatafield>
+              <fieldlabel>qmd_weighting</fieldlabel>
+              <fieldentry>2.0000</fieldentry>
+            </qti_metadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <itemproc_extension>
+          <d2l_2p0:difficulty>1</d2l_2p0:difficulty>
+          <d2l_2p0:isbonus>no</d2l_2p0:isbonus>
+          <d2l_2p0:ismandatory>no</d2l_2p0:ismandatory>
+        </itemproc_extension>
+        <presentation>
+          <flow>
+            <material>
+              <mattext texttype="text/html"><![CDATA[A ]]></mattext>
+            </material>
+            <response_str ident="QUES_1016_A101800_STR" rcardinality="Single">
+              <render_fib rows="1" columns="30" prompt="Box" fibtype="String">
+                <response_label ident="QUES_1016_A101800_ANS" />
+              </render_fib>
+            </response_str>
+            <material>
+              <mattext texttype="text/html"><![CDATA[ by any other name would&nbsp; smell as ]]></mattext>
+            </material>
+            <response_str ident="QUES_1016_A101801_STR" rcardinality="Single">
+              <render_fib rows="1" columns="30" prompt="Box" fibtype="String">
+                <response_label ident="QUES_1016_A101801_ANS" />
+              </render_fib>
+            </response_str>
+            <material>
+              <mattext texttype="text/html"><![CDATA[.]]></mattext>
+            </material>
+          </flow>
+        </presentation>
+        <hint>
+          <hintmaterial>
+            <flow_mat>
+              <mattext texttype="text/plain" />
+            </flow_mat>
+          </hintmaterial>
+        </hint>
+        <resprocessing>
+          <outcomes>
+            <decvar vartype="Integer" minvalue="0" maxvalue="100" varname="Blank_1" />
+            <decvar vartype="Integer" minvalue="0" maxvalue="100" varname="Blank_2" />
+          </outcomes>
+          <respcondition>
+            <conditionvar>
+              <varequal respident="QUES_1016_A101800_ANS" case="no">rose</varequal>
+            </conditionvar>
+            <setvar action="Set">50.0000</setvar>
+          </respcondition>
+          <respcondition>
+            <conditionvar>
+              <varequal respident="QUES_1016_A101800_ANS" case="no">flower</varequal>
+            </conditionvar>
+            <setvar action="Set">50.0000</setvar>
+          </respcondition>
+          <respcondition>
+            <conditionvar>
+              <varequal respident="QUES_1016_A101801_ANS" case="no">sweet</varequal>
+            </conditionvar>
+            <setvar action="Set">50.0000</setvar>
+          </respcondition>
+          <respcondition>
+            <conditionvar>
+              <varequal respident="QUES_1016_A101801_ANS" case="no">good</varequal>
+            </conditionvar>
+            <setvar action="Set">50.0000</setvar>
+          </respcondition>
+        </resprocessing>
+        <itemfeedback ident="QUES_1016">
+          <material>
+            <mattext texttype="text/plain" />
+          </material>
+        </itemfeedback>
+      </item>
+
+      <item ident="OBJ_1020" label="QUES_1019" d2l_2p0:page="1" title="4. Match the correct" >
+        <itemmetadata>
+          <qtimetadata>
+            <qti_metadatafield>
+              <fieldlabel>qmd_computerscored</fieldlabel>
+              <fieldentry>yes</fieldentry>
+            </qti_metadatafield>
+            <qti_metadatafield>
+              <fieldlabel>qmd_questiontype</fieldlabel>
+              <fieldentry>Matching</fieldentry>
+            </qti_metadatafield>
+            <qti_metadatafield>
+              <fieldlabel>qmd_weighting</fieldlabel>
+              <fieldentry>2.0000</fieldentry>
+            </qti_metadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <itemproc_extension>
+          <d2l_2p0:difficulty>1</d2l_2p0:difficulty>
+          <d2l_2p0:isbonus>no</d2l_2p0:isbonus>
+          <d2l_2p0:ismandatory>no</d2l_2p0:ismandatory>
+        </itemproc_extension>
+        <presentation>
+          <flow>
+            <material>
+              <mattext texttype="text/html"><![CDATA[4. Match the correct name to the discovery or theory.]]></mattext>
+            </material>
+            <response_extension>
+              <d2l_2p0:grading_type>0</d2l_2p0:grading_type>
+            </response_extension>
+            <response_grp respident="QUES_1019_C102100" rcardinality="Single">
+              <material>
+                <mattext texttype="text/html"><![CDATA[Speed of light]]></mattext>
+              </material>
+              <render_choice shuffle="yes">
+                <flow_label class="Block">
+                  <response_label ident="QUES_1019_M102100">
+                    <flow_mat>
+                      <material>
+                        <mattext texttype="text/html"><![CDATA[Michelson-Morely]]></mattext>
+                      </material>
+                    </flow_mat>
+                  </response_label>
+                  <response_label ident="QUES_1019_M102101">
+                    <flow_mat>
+                      <material>
+                        <mattext texttype="text/html"><![CDATA[Einstein]]></mattext>
+                      </material>
+                    </flow_mat>
+                  </response_label>
+                </flow_label>
+              </render_choice>
+            </response_grp>
+            <response_grp respident="QUES_1019_C102101" rcardinality="Single">
+              <material>
+                <mattext texttype="text/html"><![CDATA[Theory of Relativity]]></mattext>
+              </material>
+              <render_choice shuffle="yes">
+                <flow_label class="Block">
+                  <response_label ident="QUES_1019_M102100">
+                    <flow_mat>
+                      <material>
+                        <mattext texttype="text/html"><![CDATA[Michelson-Morely]]></mattext>
+                      </material>
+                    </flow_mat>
+                  </response_label>
+                  <response_label ident="QUES_1019_M102101">
+                    <flow_mat>
+                      <material>
+                        <mattext texttype="text/html"><![CDATA[Einstein]]></mattext>
+                      </material>
+                    </flow_mat>
+                  </response_label>
+                </flow_label>
+              </render_choice>
+            </response_grp>
+          </flow>
+        </presentation>
+        <hint>
+          <hintmaterial>
+            <flow_mat>
+              <mattext texttype="text/plain" />
+            </flow_mat>
+          </hintmaterial>
+        </hint>
+        <resprocessing>
+          <outcomes>
+            <decvar vartype="Integer" defaultval="0" varname="D2L_Correct" minvalue="0" maxvalue="100" />
+            <decvar vartype="Integer" defaultval="0" varname="D2L_Incorrect" minvalue="0" maxvalue="100" />
+            <decvar vartype="Decimal" defaultval="0" varname="que_score" minvalue="0" maxvalue="100" />
+          </outcomes>
+          <respcondition>
+            <conditionvar>
+              <varequal respident="QUES_1019_C102100">QUES_1019_M102100</varequal>
+            </conditionvar>
+            <setvar varname="D2L_Correct" action="Add">1</setvar>
+          </respcondition>
+          <respcondition>
+            <conditionvar>
+              <varequal respident="QUES_1019_C102100">QUES_1019_M102101</varequal>
+            </conditionvar>
+            <setvar varname="D2L_Incorrect" action="Add">1</setvar>
+          </respcondition>
+          <respcondition>
+            <conditionvar>
+              <varequal respident="QUES_1019_C102101">QUES_1019_M102100</varequal>
+            </conditionvar>
+            <setvar varname="D2L_Incorrect" action="Add">1</setvar>
+          </respcondition>
+          <respcondition>
+            <conditionvar>
+              <varequal respident="QUES_1019_C102101">QUES_1019_M102101</varequal>
+            </conditionvar>
+            <setvar varname="D2L_Correct" action="Add">1</setvar>
+          </respcondition>
+          <respcondition>
+            <conditionvar>
+              <other />
+            </conditionvar>
+            <setvar varname="que_score" action="Set">D2L_Correct</setvar>
+          </respcondition>
+        </resprocessing>
+        <itemfeedback ident="QUES_1019">
+          <material>
+            <mattext texttype="text/plain" />
+          </material>
+        </itemfeedback>
+      </item>
+
+      <item ident="OBJ_1023" label="QUES_1022" d2l_2p0:page="1" title="Project Management P" >
+        <itemmetadata>
+          <qtimetadata>
+            <qti_metadatafield>
+              <fieldlabel>qmd_computerscored</fieldlabel>
+              <fieldentry>yes</fieldentry>
+            </qti_metadatafield>
+            <qti_metadatafield>
+              <fieldlabel>qmd_questiontype</fieldlabel>
+              <fieldentry>Ordering</fieldentry>
+            </qti_metadatafield>
+            <qti_metadatafield>
+              <fieldlabel>qmd_weighting</fieldlabel>
+              <fieldentry>1.0000</fieldentry>
+            </qti_metadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <itemproc_extension>
+          <d2l_2p0:difficulty>1</d2l_2p0:difficulty>
+          <d2l_2p0:isbonus>no</d2l_2p0:isbonus>
+          <d2l_2p0:ismandatory>no</d2l_2p0:ismandatory>
+        </itemproc_extension>
+        <presentation>
+          <flow>
+            <material>
+              <mattext texttype="text/html"><![CDATA[Put the following stages of project management in order?<a></a><a class=msocomanchor id="_anchor_11" onmouseover="msoCommentShow('_anchor_11','_com_11')" onmouseout="msoCommentHide('_com_11')" href="#_msocom_11" language=JavaScript name="_msoanchor_11"></a>]]></mattext>
+            </material>
+            <response_extension>
+              <d2l_2p0:grading_type>0</d2l_2p0:grading_type>
+            </response_extension>
+            <response_grp respident="QUES_1022_O" rcardinality="Ordered">
+              <render_choice shuffle="yes">
+                <flow_label class="Block">
+                  <response_label ident="QUES_1022_O102400">
+                    <flow_mat>
+                      <material>
+                        <mattext texttype="text/html"><![CDATA[Initiation]]></mattext>
+                      </material>
+                    </flow_mat>
+                  </response_label>
+                  <response_label ident="QUES_1022_O102401">
+                    <flow_mat>
+                      <material>
+                        <mattext texttype="text/html"><![CDATA[Planning]]></mattext>
+                      </material>
+                    </flow_mat>
+                  </response_label>
+                  <response_label ident="QUES_1022_O102402">
+                    <flow_mat>
+                      <material>
+                        <mattext texttype="text/html"><![CDATA[Execution]]></mattext>
+                      </material>
+                    </flow_mat>
+                  </response_label>
+                  <response_label ident="QUES_1022_O102403">
+                    <flow_mat>
+                      <material>
+                        <mattext texttype="text/html"><![CDATA[Control]]></mattext>
+                      </material>
+                    </flow_mat>
+                  </response_label>
+                  <response_label ident="QUES_1022_O102404">
+                    <flow_mat>
+                      <material>
+                        <mattext texttype="text/html"><![CDATA[Closing]]></mattext>
+                      </material>
+                    </flow_mat>
+                  </response_label>
+                </flow_label>
+              </render_choice>
+            </response_grp>
+          </flow>
+        </presentation>
+        <hint>
+          <hintmaterial>
+            <flow_mat>
+              <mattext texttype="text/plain" />
+            </flow_mat>
+          </hintmaterial>
+        </hint>
+        <resprocessing>
+          <outcomes>
+            <decvar vartype="Integer" defaultval="0" varname="D2L_Correct" minvalue="0" maxvalue="100" />
+            <decvar vartype="Integer" defaultval="0" varname="D2L_Incorrect" minvalue="0" />
+            <decvar vartype="Integer" defaultval="0" varname="que_score" minvalue="0" />
+          </outcomes>
+          <respcondition title="Correct Condition">
+            <conditionvar>
+              <varequal respident="QUES_1022_O102400">1</varequal>
+            </conditionvar>
+            <setvar varname="D2L_Correct" action="Add">1</setvar>
+          </respcondition>
+          <respcondition title="Incorrect Condition">
+            <conditionvar>
+              <not>
+                <varequal respident="QUES_1022_O102400">1</varequal>
+              </not>
+            </conditionvar>
+            <setvar varname="D2L_Incorrect" action="Add">1</setvar>
+          </respcondition>
+          <respcondition title="Correct Condition">
+            <conditionvar>
+              <varequal respident="QUES_1022_O102401">2</varequal>
+            </conditionvar>
+            <setvar varname="D2L_Correct" action="Add">1</setvar>
+          </respcondition>
+          <respcondition title="Incorrect Condition">
+            <conditionvar>
+              <not>
+                <varequal respident="QUES_1022_O102401">2</varequal>
+              </not>
+            </conditionvar>
+            <setvar varname="D2L_Incorrect" action="Add">1</setvar>
+          </respcondition>
+          <respcondition title="Correct Condition">
+            <conditionvar>
+              <varequal respident="QUES_1022_O102402">3</varequal>
+            </conditionvar>
+            <setvar varname="D2L_Correct" action="Add">1</setvar>
+          </respcondition>
+          <respcondition title="Incorrect Condition">
+            <conditionvar>
+              <not>
+                <varequal respident="QUES_1022_O102402">3</varequal>
+              </not>
+            </conditionvar>
+            <setvar varname="D2L_Incorrect" action="Add">1</setvar>
+          </respcondition>
+          <respcondition title="Correct Condition">
+            <conditionvar>
+              <varequal respident="QUES_1022_O102403">4</varequal>
+            </conditionvar>
+            <setvar varname="D2L_Correct" action="Add">1</setvar>
+          </respcondition>
+          <respcondition title="Incorrect Condition">
+            <conditionvar>
+              <not>
+                <varequal respident="QUES_1022_O102403">4</varequal>
+              </not>
+            </conditionvar>
+            <setvar varname="D2L_Incorrect" action="Add">1</setvar>
+          </respcondition>
+          <respcondition title="Correct Condition">
+            <conditionvar>
+              <varequal respident="QUES_1022_O102404">5</varequal>
+            </conditionvar>
+            <setvar varname="D2L_Correct" action="Add">1</setvar>
+          </respcondition>
+          <respcondition title="Incorrect Condition">
+            <conditionvar>
+              <not>
+                <varequal respident="QUES_1022_O102404">5</varequal>
+              </not>
+            </conditionvar>
+            <setvar varname="D2L_Incorrect" action="Add">1</setvar>
+          </respcondition>
+          <respcondition>
+            <conditionvar>
+              <other />
+            </conditionvar>
+            <setvar varname="que_score" action="Set">D2L_Correct</setvar>
+          </respcondition>
+        </resprocessing>
+        <itemfeedback ident="QUES_1022">
+          <material>
+            <mattext texttype="text/html"><![CDATA[<a>See the PMBOK for details.</a><a class=msocomanchor id="_anchor_11" onmouseover="msoCommentShow('_anchor_11','_com_11')" onmouseout="msoCommentHide('_com_11')" href="#_msocom_11" language=JavaScript name="_msoanchor_11">[KH11]</a>]]></mattext>
+          </material>
+        </itemfeedback>
+        <itemfeedback ident="QUES_1022_IF102400">
+          <material>
+            <mattext texttype="text/plain" />
+          </material>
+        </itemfeedback>
+        <itemfeedback ident="QUES_1022_IF102401">
+          <material>
+            <mattext texttype="text/plain" />
+          </material>
+        </itemfeedback>
+        <itemfeedback ident="QUES_1022_IF102402">
+          <material>
+            <mattext texttype="text/plain" />
+          </material>
+        </itemfeedback>
+        <itemfeedback ident="QUES_1022_IF102403">
+          <material>
+            <mattext texttype="text/plain" />
+          </material>
+        </itemfeedback>
+        <itemfeedback ident="QUES_1022_IF102404">
+          <material>
+            <mattext texttype="text/plain" />
+          </material>
+        </itemfeedback>
+      </item>
+
+      <item ident="OBJ_1026" label="QUES_1025" d2l_2p0:page="1" title="Research credit" >
+        <itemmetadata>
+          <qtimetadata>
+            <qti_metadatafield>
+              <fieldlabel>qmd_computerscored</fieldlabel>
+              <fieldentry>yes</fieldentry>
+            </qti_metadatafield>
+            <qti_metadatafield>
+              <fieldlabel>qmd_questiontype</fieldlabel>
+              <fieldentry>Multi-Select</fieldentry>
+            </qti_metadatafield>
+            <qti_metadatafield>
+              <fieldlabel>qmd_weighting</fieldlabel>
+              <fieldentry>1.0000</fieldentry>
+            </qti_metadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <itemproc_extension>
+          <d2l_2p0:difficulty>1</d2l_2p0:difficulty>
+          <d2l_2p0:isbonus>no</d2l_2p0:isbonus>
+          <d2l_2p0:ismandatory>no</d2l_2p0:ismandatory>
+        </itemproc_extension>
+        <presentation>
+          <flow>
+            <material>
+              <mattext texttype="text/html"><![CDATA[Which of the following individuals are credited with determining the exact speed of light?]]></mattext>
+            </material>
+            <response_extension>
+              <d2l_2p0:display_style>2</d2l_2p0:display_style>
+              <d2l_2p0:enumeration>1</d2l_2p0:enumeration>
+              <d2l_2p0:grading_type>1</d2l_2p0:grading_type>
+            </response_extension>
+            <response_lid ident="QUES_1025_LID" rcardinality="Multiple">
+              <render_choice shuffle="no">
+                <flow_label class="Block">
+                  <response_label ident="QUES_1025_A102700">
+                    <flow_mat>
+                      <material>
+                        <mattext texttype="text/html"><![CDATA[Albert Einstein]]></mattext>
+                      </material>
+                    </flow_mat>
+                  </response_label>
+                </flow_label>
+                <flow_label class="Block">
+                  <response_label ident="QUES_1025_A102701">
+                    <flow_mat>
+                      <material>
+                        <mattext texttype="text/html"><![CDATA[Albert Michelson]]></mattext>
+                      </material>
+                    </flow_mat>
+                  </response_label>
+                </flow_label>
+                <flow_label class="Block">
+                  <response_label ident="QUES_1025_A102702">
+                    <flow_mat>
+                      <material>
+                        <mattext texttype="text/html"><![CDATA[Edward Williams Morley]]></mattext>
+                      </material>
+                    </flow_mat>
+                  </response_label>
+                </flow_label>
+                <flow_label class="Block">
+                  <response_label ident="QUES_1025_A102703">
+                    <flow_mat>
+                      <material>
+                        <mattext texttype="text/html"><![CDATA[Thomas Edison]]></mattext>
+                      </material>
+                    </flow_mat>
+                  </response_label>
+                </flow_label>
+              </render_choice>
+            </response_lid>
+          </flow>
+        </presentation>
+        <hint>
+          <hintmaterial>
+            <flow_mat>
+              <mattext texttype="text/plain" />
+            </flow_mat>
+          </hintmaterial>
+        </hint>
+        <resprocessing>
+          <outcomes>
+            <decvar vartype="Integer" defaultval="0" varname="que_score" minvalue="0" maxvalue="100" />
+            <decvar vartype="Integer" defaultval="0" varname="D2L_Correct" minvalue="0" />
+            <decvar vartype="Integer" defaultval="0" varname="D2L_Incorrect" minvalue="0" />
+          </outcomes>
+          <respcondition title="Response Condition" continue="yes">
+            <conditionvar>
+              <varequal respident="QUES_1025_LID">QUES_1025_A102700</varequal>
+            </conditionvar>
+            <setvar varname="D2L_Correct" action="Add">1</setvar>
+          </respcondition>
+          <respcondition title="Response Condition" continue="yes">
+            <conditionvar>
+              <varequal respident="QUES_1025_LID">QUES_1025_A102701</varequal>
+            </conditionvar>
+            <setvar varname="D2L_Correct" action="Add">1</setvar>
+          </respcondition>
+          <respcondition title="Response Condition" continue="yes">
+            <conditionvar>
+              <varequal respident="QUES_1025_LID">QUES_1025_A102702</varequal>
+            </conditionvar>
+            <setvar varname="D2L_Incorrect" action="Add">1</setvar>
+          </respcondition>
+          <respcondition title="Response Condition" continue="yes">
+            <conditionvar>
+              <varequal respident="QUES_1025_LID">QUES_1025_A102703</varequal>
+            </conditionvar>
+            <setvar varname="D2L_Incorrect" action="Add">1</setvar>
+          </respcondition>
+          <respcondition>
+            <conditionvar>
+              <varlt respident="D2L_Incorrect">D2L_Correct</varlt>
+            </conditionvar>
+            <setvar varname="que_score" action="Set">D2L_Correct</setvar>
+            <setvar varname="que_score" action="Subtract">D2L_Incorrect</setvar>
+          </respcondition>
+        </resprocessing>
+        <itemfeedback ident="QUES_1025">
+          <material>
+            <mattext texttype="text/plain" />
+          </material>
+        </itemfeedback>
+        <itemfeedback ident="QUES_1025_IF102700">
+          <material>
+            <mattext texttype="text/plain" />
+          </material>
+        </itemfeedback>
+        <itemfeedback ident="QUES_1025_IF102701">
+          <material>
+            <mattext texttype="text/plain" />
+          </material>
+        </itemfeedback>
+        <itemfeedback ident="QUES_1025_IF102702">
+          <material>
+            <mattext texttype="text/plain" />
+          </material>
+        </itemfeedback>
+        <itemfeedback ident="QUES_1025_IF102703">
+          <material>
+            <mattext texttype="text/plain" />
+          </material>
+        </itemfeedback>
+      </item>
+
+      <item ident="OBJ_1029" label="QUES_1028" d2l_2p0:page="1" title="The interferometer," >
+        <itemmetadata>
+          <qtimetadata>
+            <qti_metadatafield>
+              <fieldlabel>qmd_computerscored</fieldlabel>
+              <fieldentry>yes</fieldentry>
+            </qti_metadatafield>
+            <qti_metadatafield>
+              <fieldlabel>qmd_questiontype</fieldlabel>
+              <fieldentry>Multiple Choice</fieldentry>
+            </qti_metadatafield>
+            <qti_metadatafield>
+              <fieldlabel>qmd_weighting</fieldlabel>
+              <fieldentry>1.0000</fieldentry>
+            </qti_metadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <itemproc_extension>
+          <d2l_2p0:difficulty>1</d2l_2p0:difficulty>
+          <d2l_2p0:isbonus>no</d2l_2p0:isbonus>
+          <d2l_2p0:ismandatory>no</d2l_2p0:ismandatory>
+        </itemproc_extension>
+        <presentation>
+          <flow>
+            <material>
+              <mattext texttype="text/html"><![CDATA[<a>The interferometer, shown here, </a><IMG src="sample-quiz-import/image0025bec8f50.jpg" alt="" border=0 style="vertical-align:text-bottom;" />&nbsp;was used by which of the following scientists?<a class=msocomanchor id="_anchor_13" onmouseover="msoCommentShow('_anchor_13','_com_13')" onmouseout="msoCommentHide('_com_13')" href="#_msocom_13" language=JavaScript name="_msoanchor_13">[KH13]</a>]]></mattext>
+            </material>
+            <response_extension>
+              <d2l_2p0:display_style>2</d2l_2p0:display_style>
+              <d2l_2p0:enumeration>1</d2l_2p0:enumeration>
+              <d2l_2p0:grading_type>0</d2l_2p0:grading_type>
+            </response_extension>
+            <response_lid ident="QUES_1028_LID" rcardinality="Multiple">
+              <render_choice shuffle="no">
+                <flow_label class="Block">
+                  <response_label ident="QUES_1028_A103000">
+                    <flow_mat>
+                      <material>
+                        <mattext texttype="text/html"><![CDATA[Albert Einstein]]></mattext>
+                      </material>
+                    </flow_mat>
+                  </response_label>
+                </flow_label>
+                <flow_label class="Block">
+                  <response_label ident="QUES_1028_A103001">
+                    <flow_mat>
+                      <material>
+                        <mattext texttype="text/html"><![CDATA[Albert Michelson]]></mattext>
+                      </material>
+                    </flow_mat>
+                  </response_label>
+                </flow_label>
+                <flow_label class="Block">
+                  <response_label ident="QUES_1028_A103002">
+                    <flow_mat>
+                      <material>
+                        <mattext texttype="text/html"><![CDATA[Thomas Edison]]></mattext>
+                      </material>
+                    </flow_mat>
+                  </response_label>
+                </flow_label>
+                <flow_label class="Block">
+                  <response_label ident="QUES_1028_A103003">
+                    <flow_mat>
+                      <material>
+                        <mattext texttype="text/html"><![CDATA[Vladimir Zworykin]]></mattext>
+                      </material>
+                    </flow_mat>
+                  </response_label>
+                </flow_label>
+              </render_choice>
+            </response_lid>
+          </flow>
+        </presentation>
+        <hint>
+          <hintmaterial>
+            <flow_mat>
+              <mattext texttype="text/plain" />
+            </flow_mat>
+          </hintmaterial>
+        </hint>
+        <resprocessing>
+          <respcondition title="Response Condition 1">
+            <conditionvar>
+              <varequal respident="QUES_1028_LID">QUES_1028_A103000</varequal>
+            </conditionvar>
+            <setvar action="Set">0.0000</setvar>
+            <displayfeedback feedbacktype="Response" linkrefid="QUES_1028_IF103000" />
+          </respcondition>
+          <respcondition title="Response Condition 2">
+            <conditionvar>
+              <varequal respident="QUES_1028_LID">QUES_1028_A103001</varequal>
+            </conditionvar>
+            <setvar action="Set">100.0000</setvar>
+            <displayfeedback feedbacktype="Response" linkrefid="QUES_1028_IF103001" />
+          </respcondition>
+          <respcondition title="Response Condition 3">
+            <conditionvar>
+              <varequal respident="QUES_1028_LID">QUES_1028_A103002</varequal>
+            </conditionvar>
+            <setvar action="Set">0.0000</setvar>
+            <displayfeedback feedbacktype="Response" linkrefid="QUES_1028_IF103002" />
+          </respcondition>
+          <respcondition title="Response Condition 4">
+            <conditionvar>
+              <varequal respident="QUES_1028_LID">QUES_1028_A103003</varequal>
+            </conditionvar>
+            <setvar action="Set">0.0000</setvar>
+            <displayfeedback feedbacktype="Response" linkrefid="QUES_1028_IF103003" />
+          </respcondition>
+        </resprocessing>
+        <itemfeedback ident="QUES_1028">
+          <material>
+            <mattext texttype="text/plain" />
+          </material>
+        </itemfeedback>
+        <itemfeedback ident="QUES_1028_IF103000">
+          <material>
+            <mattext texttype="text/plain" />
+          </material>
+        </itemfeedback>
+        <itemfeedback ident="QUES_1028_IF103001">
+          <material>
+            <mattext texttype="text/plain" />
+          </material>
+        </itemfeedback>
+        <itemfeedback ident="QUES_1028_IF103002">
+          <material>
+            <mattext texttype="text/plain" />
+          </material>
+        </itemfeedback>
+        <itemfeedback ident="QUES_1028_IF103003">
+          <material>
+            <mattext texttype="text/plain" />
+          </material>
+        </itemfeedback>
+      </item>
+
+
+    </section>
+  </assessment>
+
+</questestinterop>
