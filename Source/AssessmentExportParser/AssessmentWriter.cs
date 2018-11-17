@@ -32,25 +32,35 @@ namespace AssessmentExportParser
             var i = 0;
             foreach (var question in exam.Questions)
             {
-                sb.AppendFormat("# QUESTION {0}", ++i);
+                sb.AppendLine("---");
+                sb.AppendLine();
+                sb.AppendFormat("# Question #{0}", ++i);
                 sb.AppendLine();
                 sb.AppendLine();
                 sb.AppendLine(question.Text);
                 sb.AppendLine();
-                sb.AppendLine("## Options");
-                sb.AppendLine();
 
-                foreach (var option in question.Options)
+                if (question.Options.Count > 0)
                 {
-                    sb.AppendFormat("- {0}", option.Points > 0 ? "*" + option.Text + "*" : option.Text);
+                    sb.AppendLine("## Options");
+                    sb.AppendLine();
+
+                    foreach (var option in question.Options)
+                    {
+                        sb.AppendFormat("- {0}", option.Points > 0 ? "*" + option.Text + "*" : option.Text);
+                        sb.AppendLine();
+                    }
+
                     sb.AppendLine();
                 }
-                sb.AppendLine();
 
-                sb.AppendLine("## Feedback");
-                sb.AppendLine();
-                sb.AppendLine(question.FeedbackText);
-                sb.AppendLine();
+                if (!string.IsNullOrEmpty(question.FeedbackText))
+                {
+                    sb.AppendLine("## Feedback");
+                    sb.AppendLine();
+                    sb.AppendLine(question.FeedbackText);
+                    sb.AppendLine();
+                }
             }
 
             return sb.ToString();

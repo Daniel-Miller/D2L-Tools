@@ -1,4 +1,6 @@
-# QUESTION 1
+---
+
+# Question #1
 
 Leads will only dislodge if a patient performs an inappropriate upper body movement too soon post-op.
 
@@ -7,11 +9,9 @@ Leads will only dislodge if a patient performs an inappropriate upper body movem
 - True
 - *False*
 
-## Feedback
+---
 
-
-
-# QUESTION 2
+# Question #2
 
 PVC's during pacemaker implant are always consequential.
 
@@ -24,7 +24,9 @@ PVC's during pacemaker implant are always consequential.
 
 PVCs or short runs of VT are rarely sustained during implantation of the RV lead.
 
-# QUESTION 3
+---
+
+# Question #3
 
 Pneumothorax is caused by which of the following?
 
@@ -35,11 +37,9 @@ Pneumothorax is caused by which of the following?
 - cephalic cut-down
 - *subclavian puncture*
 
-## Feedback
+---
 
-
-
-# QUESTION 4
+# Question #4
 
 An infected pulse generator pocket will require which of the following?
 
@@ -51,22 +51,15 @@ An infected pulse generator pocket will require which of the following?
 - *both a and b*
 - none of the above
 
-## Feedback
+---
 
-
-
-# QUESTION 5
+# Question #5
 
 Name and describe the 3 classifications of device and lead advisories.
 
-## Options
+---
 
-
-## Feedback
-
-
-
-# QUESTION 6
+# Question #6
 
 Which of the following is at greatest risk trauma during a lead extraction case?
 
@@ -76,8 +69,4 @@ Which of the following is at greatest risk trauma during a lead extraction case?
 - tricuspid valve
 - RV apex
 - *all of the above*
-
-## Feedback
-
-
 
